@@ -17,10 +17,7 @@ class CategoryItem extends StatelessWidget {
         Container(
           padding: EdgeInsets.all(10),
           alignment: Alignment.center,
-          child: Text(title, style: TextStyle(
-            fontSize: 30,
-            color: Colors.white,
-          ),),
+          child: Text(title, style: Theme.of(context).textTheme.headline6,),
           decoration: BoxDecoration(
             color: Colors.black.withOpacity(0.4),
             borderRadius: BorderRadius.circular(15),
